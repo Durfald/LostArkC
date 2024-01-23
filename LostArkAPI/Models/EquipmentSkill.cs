@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace LostArkManager.LOSTARK.Parser.Models
+namespace LostArkAPI.Models
 {
     class EquipmentSkill
     {

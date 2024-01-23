@@ -1,7 +1,7 @@
-﻿using LostArkManager.LOSTARK.Extensions;
+﻿using LostArkAPI.Extensions;
 using Newtonsoft.Json;
 
-namespace LostArkManager.LOSTARK.Parser.Models
+namespace LostArkAPI.Models
 {
     class Character
     {

@@ -1,7 +1,7 @@
-﻿using LostArkManager.LOSTARK.Extensions;
+﻿using LostArkAPI.Extensions;
 using Newtonsoft.Json;
 
-namespace LostArkManager.LOSTARK.Parser.Models
+namespace LostArkAPI.Models
 {/* 0-5 шмотки 1
   * 6-10 бижа 2
   * 11 фетр 3

@@ -12,7 +12,12 @@
             <ColumnDefinition Width="7*"/>
             <ColumnDefinition Width="33*"/>
         </Grid.ColumnDefinitions>
-
-        <Button Style="{StaticResource ImageButtonStyle}" extensions:ImageButton.ImageSource="{StaticResource Skull}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="71" Width="76" Margin="323,185,0,0"/>
+        <StackPanel>
+            <Button Style="{StaticResource LeftButtonStyle}" Content="Гайды"/>
+            <Button Style="{StaticResource LeftButtonStyle}" Content="Билды"/>
+            <Button Style="{StaticResource LeftButtonStyle}" Content="Персонажи"/>
+            <Button Style="{StaticResource LeftButtonStyle}" Content="Топ"/>
+        </StackPanel>
+        <!--<Button Style="{StaticResource BingoSkullButtonStyle}" extensions:ImageButton.ImageSource="{StaticResource Skull}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="71" Width="67" Margin="323,185,0,0"/>-->
     </Grid>
 </Window>

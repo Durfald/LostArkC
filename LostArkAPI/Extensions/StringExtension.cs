@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace LostArkManager.LOSTARK.Extensions
+namespace LostArkAPI.Extensions
 {
     public static class StringExtensions
     {

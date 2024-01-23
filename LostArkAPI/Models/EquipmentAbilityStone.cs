@@ -1,12 +1,12 @@
-﻿using LostArkManager.LOSTARK.Extensions;
+﻿using LostArkAPI.Extensions;
 using Newtonsoft.Json;
 
-namespace LostArkManager.LOSTARK.Parser.Models
+namespace LostArkAPI.Models
 {
-    class EquipmentAccessories : EquipmentItem
+    class EquipmentAbilityStone : EquipmentItem
     {
         [JsonConstructor]
-        public EquipmentAccessories(string slot, string name, string type, string icon, int grade,
+        public EquipmentAbilityStone(string slot, string name, string type, string icon, int grade,
             string rank, int quality, int tier, List<EquipEffect> base_effects, List<EquipEffect> additional_effects, List<EquipmentItemEngrave> engraves) : base(slot, name, type, icon, grade)
         {
             Rank = rank.RemoveHTMLCode();

@@ -1,5 +1,7 @@
-﻿using LostArkManager.LOSTARK.Parser.Models;
+﻿using LostArkManager.LOSTARK.Extensions;
+using LostArkManager.LOSTARK.Parser.Models;
 using Newtonsoft.Json;
+using System.Diagnostics;
 using System.Net.Http;
 
 namespace LostArkManager.LOSTARK.Parser
@@ -17,11 +19,11 @@ namespace LostArkManager.LOSTARK.Parser
                     client.DefaultRequestHeaders.Add("Origin", "https://lostarktree.ru");
 
                     HttpResponseMessage response = await client.GetAsync(apiUrl);
-
+                    Debug.WriteLine(response.IsSuccessStatusCode);
                     if (response.IsSuccessStatusCode)
                     {
                         string responseData = await response.Content.ReadAsStringAsync();
-                        var q = JsonConvert.DeserializeObject<List<Character>>(responseData);
+                        var q = JsonConvert.DeserializeObject<List<Character>>(responseData, new EquipmentItemConverter());
                         Console.WriteLine(responseData);
                     }
                     else

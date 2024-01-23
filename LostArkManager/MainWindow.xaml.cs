@@ -1,5 +1,6 @@
 ﻿using LostArkManager.LOSTARK.Extensions;
 using LostArkManager.LOSTARK.Parser;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,13 +22,13 @@ namespace LostArkManager
         public MainWindow()
         {
             InitializeComponent();
-            //LAParser.Send("Durfald");
-            Button button = new();
-            button.Width = 40;
-            button.Height = 40;
-            button.Style= (Style)Application.Current.FindResource("ImageButtonStyle");
-            ImageButton.SetImageSource(button, new BitmapImage(new Uri("/YourProjectName;component/Images/NewImage.png", UriKind.Relative)));
-            MG.Children.Add(button);
+            LAParser.Send("Durfald");
+            //Button button = new();
+            //button.Width = 40;
+            //button.Height = 40;
+            //button.Style= (Style)Application.Current.FindResource("BingoSkullButtonStyle");
+            //ImageButton.SetImageSource(button, new BitmapImage(new Uri("/YourProjectName;component/Images/NewImage.png", UriKind.Relative)));
+            //MG.Children.Add(button);
         }
     }
 }

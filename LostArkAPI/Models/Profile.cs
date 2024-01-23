@@ -1,7 +1,7 @@
-﻿using LostArkManager.LOSTARK.Extensions;
+﻿using LostArkAPI.Extensions;
 using Newtonsoft.Json;
 
-namespace LostArkManager.LOSTARK.Parser.Models
+namespace LostArkAPI.Models
 {
     class Profile
     {
@@ -88,64 +88,5 @@ namespace LostArkManager.LOSTARK.Parser.Models
         {
             
         }
-
-        //[JsonConstructor]
-        //public Profile(object? another_profile, 
-        //    string build,
-        //    List<Card> cards,
-        //    List<CardSet> cardsSet, 
-        //    string @class, 
-        //    int classNo,
-        //    int unixDateUpdate,
-        //    List<Engrave> engraves, 
-        //    Equip equip, 
-        //    int expedition, 
-        //    float gearScore, 
-        //    string guildName,
-        //    int level, 
-        //    string memberNo,
-        //    string nickname,
-        //    string pcId, 
-        //    int point,
-        //    int pointAll,
-        //    string pVPRank,
-        //    string serverName,
-        //    string serverNameHuman,
-        //    List<EquipmentSkill> skills,
-        //    Dictionary<string, int> stats,
-        //    Dictionary<string, string> statsDescription,
-        //    string title, 
-        //    string worldNo)
-        //{
-        //    this.another_profile = another_profile;
-        //    Build = build;
-        //    Cards = cards;
-        //    CardsSet = cardsSet;
-        //    Class = @class;
-        //    ClassNo = classNo;
-        //    UnixDateUpdate = unixDateUpdate;
-        //    Engraves = engraves;
-        //    Equip = equip;
-        //    Expedition = expedition;
-        //    GearScore = gearScore;
-        //    GuildName = guildName;
-        //    Level = level;
-        //    MemberNo = memberNo;
-        //    Nickname = nickname;
-        //    PcId = pcId;
-        //    Point = point;
-        //    PointAll = pointAll;
-        //    PVPRank = pVPRank;
-        //    ServerName = serverName;
-        //    ServerNameHuman = serverNameHuman;
-        //    Skills = skills;
-        //    Stats = stats;
-        //    foreach(var StatDesc in statsDescription)
-        //    {
-        //        StatsDescription.Add(StatDesc.Key,StatDesc.Value.RemoveHTMLCode());
-        //    }
-        //    Title = title;
-        //    WorldNo = worldNo;
-        //}
     }
 }

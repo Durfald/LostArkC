@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostArkCommercial", "LostArkCommercial\LostArkCommercial.csproj", "{9F00603A-4345-48BD-BF3B-43F5C84944BB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31619CAE-8166-4D65-8681-245AB3BAC0CA}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostArkManager", "LostArkManager\LostArkManager.csproj", "{2450DBBC-5431-413A-BB0A-101D0D57756C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostArkManager", "LostArkManager\LostArkManager.csproj", "{2450DBBC-5431-413A-BB0A-101D0D57756C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LostArkAPI", "LostArkAPI\LostArkAPI.csproj", "{DAB3D23C-93AC-408D-B66C-DBE0199D236A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,26 +26,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|ARM.Build.0 = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|x64.Build.0 = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Debug|x86.Build.0 = Debug|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|ARM.ActiveCfg = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|ARM.Build.0 = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|ARM64.Build.0 = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|x64.ActiveCfg = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|x64.Build.0 = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|x86.ActiveCfg = Release|Any CPU
-		{9F00603A-4345-48BD-BF3B-43F5C84944BB}.Release|x86.Build.0 = Release|Any CPU
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -66,6 +46,26 @@ Global
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Release|x64.Build.0 = Release|Any CPU
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Release|x86.ActiveCfg = Release|Any CPU
 		{2450DBBC-5431-413A-BB0A-101D0D57756C}.Release|x86.Build.0 = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|x64.Build.0 = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|ARM.Build.0 = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|ARM64.Build.0 = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|x64.Build.0 = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAB3D23C-93AC-408D-B66C-DBE0199D236A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
