@@ -1,0 +1,35 @@
+﻿using Newtonsoft.Json;
+
+namespace LostArkManager.LOSTARK.Parser.Models
+{
+    class EquipmentSkill
+    {
+        [JsonProperty("dataItem")]
+        public string DataItem {  get; set; } = string.Empty;
+
+        [JsonProperty("id")]
+        public int Id { get; set; }
+
+        [JsonProperty("jew")]
+        public List<string> Jew {  get; set; } = new();
+
+        [JsonProperty("jews")]
+        public List<SkillJewelry> Jewelries { get; set; } = new();
+
+        [JsonProperty("level")]
+        public int Level {  get; set; }
+
+        [JsonProperty("rune")]
+        public string Rune { get; set; } = string.Empty;
+
+        [JsonProperty("runeGrade")]
+        public string RuneGrade {  get; set; } = string.Empty;
+        [JsonProperty("runeId")]
+        public string RuneId { get; set; } = string.Empty;
+        [JsonProperty("selectedTripodTier")]
+        public List<int> SelectedTripodTier { get; set; } = new();
+
+        [JsonProperty("tripodLvl")]
+        public List<int> TripodLevel { get; set; } = new();
+    }
+}

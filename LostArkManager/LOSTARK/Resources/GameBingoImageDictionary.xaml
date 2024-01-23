@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage  UriSource="hellskull.png" x:Key="HellSkull"/>
+    <BitmapImage  UriSource="redskull.png" x:Key="RedSkull"/>
+    <BitmapImage  UriSource="skull.png" x:Key="Skull"/>
+</ResourceDictionary>
