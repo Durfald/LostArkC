@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapImage  UriSource="hellskull.png" x:Key="HellSkull"/>
+    <BitmapImage  UriSource="redskull.png" x:Key="RedSkull"/>
+    <BitmapImage  UriSource="skull.png" x:Key="Skull"/>
+    <BitmapImage  UriSource="heart.png" x:Key="Heart"/>
+    <BitmapImage  UriSource="ignea_token.png" x:Key="IgneaToken"/>
+    <BitmapImage  UriSource="island.png" x:Key="Island"/>
+    <BitmapImage  UriSource="masterpiece.png" x:Key="Masterpiece"/>
+    <BitmapImage  UriSource="mococo.png" x:Key="Mococo"/>
+    <BitmapImage  UriSource="orgel.png" x:Key="Orgel"/>
+    <BitmapImage  UriSource="orpheus_star.png" x:Key="OrpheusStar"/>
+    <BitmapImage  UriSource="sea_adventures.png" x:Key="SeaAdventures"/>
+    <BitmapImage  UriSource="world_tree.png" x:Key="WorldTree"/>
+</ResourceDictionary>

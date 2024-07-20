@@ -1,6 +1,7 @@
 ﻿using LostArkManager.LOSTARK.Parser.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Text.Json.Nodes;
 
 namespace LostArkManager.LOSTARK.Extensions
 {

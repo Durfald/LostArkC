@@ -2,10 +2,14 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:extensions="clr-namespace:LostArkManager.LOSTARK.Extensions"
                     >
+    <Style TargetType="Label">
+        <Setter Property="Foreground" Value="White"/>
+    </Style>
+
     <SolidColorBrush x:Key="BBB" Color="#3300F8"/>
     <SolidColorBrush x:Key="BB" Color="#8E7CF9"/>
     <SolidColorBrush x:Key="B" Color="#CEC8FC"/>
-
+    
     <Style x:Key="FocusVisualLeftButton">
         <Setter Property="Control.Template">
             <Setter.Value>
@@ -15,6 +19,7 @@
             </Setter.Value>
         </Setter>
     </Style>
+    
     <Style x:Key="LeftButtonStyle" TargetType="{x:Type Button}">
         <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisualLeftButton}"/>
         <Setter Property="Background" Value="DarkGray"/>

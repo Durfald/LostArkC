@@ -7,7 +7,8 @@ namespace LostArkManager.LOSTARK.Parser.Models
     {
         [JsonConstructor]
         public EquipmentAccessories(string slot, string name, string type, string icon, int grade,
-            string rank, int quality, int tier, List<EquipEffect> base_effects, List<EquipEffect> additional_effects, List<EquipmentItemEngrave> engraves) : base(slot, name, type, icon, grade)
+            string rank, int quality, int tier, List<EquipEffect> base_effects,
+            List<EquipEffect> additional_effects, List<EquipmentItemEngrave> engraves) : base(slot, name, type, icon, grade)
         {
             Rank = rank.RemoveHTMLCode();
             Quality = quality;

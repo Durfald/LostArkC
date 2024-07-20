@@ -31,7 +31,8 @@ namespace LostArkManager.LOSTARK.Parser.Models
 
         [JsonConstructor]
         public EquipmentEquip(string slot, string name, string type, string icon, int grade,
-            List<EquipEffect> additional_effects, List<EquipEffect> base_effects, string set, int gs, int tier, int quality, int lvl, string rank) : base(slot, name, type, icon, grade)
+            List<EquipEffect> additional_effects, List<EquipEffect> base_effects,
+            string set, int gs, int tier, int quality, int lvl, string rank) : base(slot, name, type, icon, grade)
         {
             AdditionalEffects = additional_effects;
             BaseEffects = base_effects;

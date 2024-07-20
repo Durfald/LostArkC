@@ -1,4 +1,4 @@
-﻿using LostArkAPI.Models;
+﻿using LostArkAPI.Models.LostArk;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -21,6 +21,21 @@ namespace LostArkAPI.Extensions
         public override void WriteJson(JsonWriter writer, Dictionary<string, string>? value, JsonSerializer serializer)
         {
             throw new NotImplementedException();
+            //if (value == null)
+            //{
+            //    writer.WriteNull();
+            //    return;
+            //}
+
+            //writer.WriteStartObject();
+
+            //foreach (var kvp in value)
+            //{
+            //    writer.WritePropertyName(kvp.Key);
+            //    writer.WriteValue(kvp.Value);
+            //}
+
+            //writer.WriteEndObject();
         }
     }
     class CharacterSkillConverter : JsonConverter<Dictionary<string, CharacterSkill>>

@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="LOSTARK\Resources\GameBingoImageDictionary.xaml"/>
+                <ResourceDictionary Source="LOSTARK\Resources\ImageDictionary.xaml"/>
                 <ResourceDictionary Source="LOSTARK\Resources\StyleDictionary.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

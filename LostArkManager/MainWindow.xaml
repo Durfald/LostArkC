@@ -9,8 +9,8 @@
         Title="MainWindow" Height="450" Width="915">
     <Grid x:Name="MG" Background="#222222">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="7*"/>
-            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <StackPanel>
             <Button Style="{StaticResource LeftButtonStyle}" Content="Гайды"/>
@@ -18,6 +18,7 @@
             <Button Style="{StaticResource LeftButtonStyle}" Content="Персонажи"/>
             <Button Style="{StaticResource LeftButtonStyle}" Content="Топ"/>
         </StackPanel>
+        <Frame Grid.Column="1" NavigationUIVisibility="Hidden" VerticalAlignment="Top" x:Name="FrameNav" HorizontalAlignment="Left"/>
         <!--<Button Style="{StaticResource BingoSkullButtonStyle}" extensions:ImageButton.ImageSource="{StaticResource Skull}" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="71" Width="67" Margin="323,185,0,0"/>-->
     </Grid>
 </Window>

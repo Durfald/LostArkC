@@ -1,4 +1,5 @@
 ﻿using LostArkManager.LOSTARK.Extensions;
+using Microsoft.VisualBasic;
 using Newtonsoft.Json;
 
 namespace LostArkManager.LOSTARK.Parser.Models
@@ -8,11 +9,24 @@ namespace LostArkManager.LOSTARK.Parser.Models
         [JsonProperty("class")]
         public int Class { get; set; }
 
+        /// <summary>
+        /// дата получения актуального гс-а
+        /// </summary>
         [JsonProperty("date")]
         public int UnixDate { get; set; }
 
+        //public DateTime date {
+        //    get
+        //    {
+        //        return new DateTime().UnixTimeConvert(UnixDate);
+        //    }
+        //}
+
+        /// <summary>
+        /// дата обновления информации
+        /// </summary>
         [JsonProperty("dateupd")]
-        public int UnixDateUpdate { get; set; }
+        private int UnixDateUpdate { get; set; }
 
         [JsonProperty("gs")]
         public float GearScore { get; set; }
@@ -36,6 +50,7 @@ namespace LostArkManager.LOSTARK.Parser.Models
         [JsonConverter(typeof(CharacterSkillConverter))]
         public Dictionary<string, CharacterSkill> Skills { get; set; } = new();
 
-        
+        [JsonProperty("collections")]
+        public CollectionsCount Collections { get; set; } = new();
     }
 }

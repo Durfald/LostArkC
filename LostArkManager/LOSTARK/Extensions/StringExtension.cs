@@ -1,9 +1,11 @@
-﻿using System.Text;
+﻿using System.Net;
+using System.Text;
 
 namespace LostArkManager.LOSTARK.Extensions
 {
     public static class StringExtensions
     {
+        
         public static string RemoveHTMLCode(this string str)
         {
             Stack<int> IndexOpeningSymbol = new Stack<int>();
