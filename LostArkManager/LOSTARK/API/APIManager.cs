@@ -10,7 +10,7 @@ namespace LostArkManager.LOSTARK.API
     public class APIManager
     {
         //https://static.monopoly.la.gmru.net
-        //jews
+        //jewsц
         static async Task<string> SendImage(byte[] ImagesBytes,string ImageName,string Type="NoFiltered")
         {
             string FolderName = "";
